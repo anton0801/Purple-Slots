@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE0EA5BA2C985EB100144B2E /* PurpleSlotsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0EA5B92C985EB100144B2E /* PurpleSlotsApp.swift */; };
+		EE0EA5BC2C985EB100144B2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0EA5BB2C985EB100144B2E /* ContentView.swift */; };
+		EE0EA5BE2C985EB500144B2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0EA5BD2C985EB500144B2E /* Assets.xcassets */; };
+		EE0EA5C12C985EB500144B2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0EA5C02C985EB500144B2E /* Preview Assets.xcassets */; };
+		EE0EA5C92C98634600144B2E /* DailyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0EA5C82C98634600144B2E /* DailyManager.swift */; };
+		EE0EA5CB2C9863C100144B2E /* ChangaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE0EA5CA2C9863C100144B2E /* ChangaOne-Regular.ttf */; };
+		EE0EA5CE2C98678700144B2E /* UserConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0EA5CD2C98678700144B2E /* UserConfig.swift */; };
+		EE0EA5D02C986A0900144B2E /* WheelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0EA5CF2C986A0900144B2E /* WheelManager.swift */; };
+		EE0EA5D52C98702400144B2E /* TigerFocusScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0EA5D42C98702400144B2E /* TigerFocusScene.swift */; };
+		EE0EA5D92C98841400144B2E /* SlotGameById.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0EA5D82C98841400144B2E /* SlotGameById.swift */; };
+		EE0EA5DB2C988E5E00144B2E /* SlotInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0EA5DA2C988E5E00144B2E /* SlotInfoView.swift */; };
+		EE0EA5DD2C98985800144B2E /* EgyptGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0EA5DC2C98985800144B2E /* EgyptGameScene.swift */; };
+		EE0EA5DF2C98A5A200144B2E /* MonkeyChanceScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0EA5DE2C98A5A200144B2E /* MonkeyChanceScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE0EA5B62C985EB100144B2E /* PurpleSlots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PurpleSlots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0EA5B92C985EB100144B2E /* PurpleSlotsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleSlotsApp.swift; sourceTree = "<group>"; };
+		EE0EA5BB2C985EB100144B2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE0EA5BD2C985EB500144B2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE0EA5C02C985EB500144B2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE0EA5C82C98634600144B2E /* DailyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyManager.swift; sourceTree = "<group>"; };
+		EE0EA5CA2C9863C100144B2E /* ChangaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ChangaOne-Regular.ttf"; sourceTree = "<group>"; };
+		EE0EA5CC2C9863DC00144B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EE0EA5CD2C98678700144B2E /* UserConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserConfig.swift; sourceTree = "<group>"; };
+		EE0EA5CF2C986A0900144B2E /* WheelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelManager.swift; sourceTree = "<group>"; };
+		EE0EA5D42C98702400144B2E /* TigerFocusScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TigerFocusScene.swift; sourceTree = "<group>"; };
+		EE0EA5D82C98841400144B2E /* SlotGameById.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotGameById.swift; sourceTree = "<group>"; };
+		EE0EA5DA2C988E5E00144B2E /* SlotInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotInfoView.swift; sourceTree = "<group>"; };
+		EE0EA5DC2C98985800144B2E /* EgyptGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptGameScene.swift; sourceTree = "<group>"; };
+		EE0EA5DE2C98A5A200144B2E /* MonkeyChanceScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkeyChanceScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE0EA5B32C985EB100144B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE0EA5AD2C985EB100144B2E = {
+			isa = PBXGroup;
+			children = (
+				EE0EA5B82C985EB100144B2E /* PurpleSlots */,
+				EE0EA5B72C985EB100144B2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE0EA5B72C985EB100144B2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE0EA5B62C985EB100144B2E /* PurpleSlots.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE0EA5B82C985EB100144B2E /* PurpleSlots */ = {
+			isa = PBXGroup;
+			children = (
+				EE0EA5D12C98700900144B2E /* Games */,
+				EE0EA5CC2C9863DC00144B2E /* Info.plist */,
+				EE0EA5CA2C9863C100144B2E /* ChangaOne-Regular.ttf */,
+				EE0EA5C72C98633B00144B2E /* Managers */,
+				EE0EA5B92C985EB100144B2E /* PurpleSlotsApp.swift */,
+				EE0EA5BB2C985EB100144B2E /* ContentView.swift */,
+				EE0EA5BD2C985EB500144B2E /* Assets.xcassets */,
+				EE0EA5BF2C985EB500144B2E /* Preview Content */,
+				EE0EA5CD2C98678700144B2E /* UserConfig.swift */,
+			);
+			path = PurpleSlots;
+			sourceTree = "<group>";
+		};
+		EE0EA5BF2C985EB500144B2E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE0EA5C02C985EB500144B2E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE0EA5C72C98633B00144B2E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				EE0EA5C82C98634600144B2E /* DailyManager.swift */,
+				EE0EA5CF2C986A0900144B2E /* WheelManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		EE0EA5D12C98700900144B2E /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				EE0EA5D32C98701100144B2E /* Views */,
+				EE0EA5D22C98700E00144B2E /* Scenes */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		EE0EA5D22C98700E00144B2E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EE0EA5D42C98702400144B2E /* TigerFocusScene.swift */,
+				EE0EA5DC2C98985800144B2E /* EgyptGameScene.swift */,
+				EE0EA5DE2C98A5A200144B2E /* MonkeyChanceScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EE0EA5D32C98701100144B2E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE0EA5D82C98841400144B2E /* SlotGameById.swift */,
+				EE0EA5DA2C988E5E00144B2E /* SlotInfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE0EA5B52C985EB100144B2E /* PurpleSlots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0EA5C42C985EB500144B2E /* Build configuration list for PBXNativeTarget "PurpleSlots" */;
+			buildPhases = (
+				EE0EA5B22C985EB100144B2E /* Sources */,
+				EE0EA5B32C985EB100144B2E /* Frameworks */,
+				EE0EA5B42C985EB100144B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PurpleSlots;
+			productName = PurpleSlots;
+			productReference = EE0EA5B62C985EB100144B2E /* PurpleSlots.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE0EA5AE2C985EB100144B2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EE0EA5B52C985EB100144B2E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = EE0EA5B12C985EB100144B2E /* Build configuration list for PBXProject "PurpleSlots" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE0EA5AD2C985EB100144B2E;
+			productRefGroup = EE0EA5B72C985EB100144B2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE0EA5B52C985EB100144B2E /* PurpleSlots */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE0EA5B42C985EB100144B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0EA5C12C985EB500144B2E /* Preview Assets.xcassets in Resources */,
+				EE0EA5BE2C985EB500144B2E /* Assets.xcassets in Resources */,
+				EE0EA5CB2C9863C100144B2E /* ChangaOne-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE0EA5B22C985EB100144B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0EA5D92C98841400144B2E /* SlotGameById.swift in Sources */,
+				EE0EA5BC2C985EB100144B2E /* ContentView.swift in Sources */,
+				EE0EA5CE2C98678700144B2E /* UserConfig.swift in Sources */,
+				EE0EA5D02C986A0900144B2E /* WheelManager.swift in Sources */,
+				EE0EA5DD2C98985800144B2E /* EgyptGameScene.swift in Sources */,
+				EE0EA5C92C98634600144B2E /* DailyManager.swift in Sources */,
+				EE0EA5BA2C985EB100144B2E /* PurpleSlotsApp.swift in Sources */,
+				EE0EA5DF2C98A5A200144B2E /* MonkeyChanceScene.swift in Sources */,
+				EE0EA5DB2C988E5E00144B2E /* SlotInfoView.swift in Sources */,
+				EE0EA5D52C98702400144B2E /* TigerFocusScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE0EA5C22C985EB500144B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE0EA5C32C985EB500144B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE0EA5C52C985EB500144B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PurpleSlots/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PurpleSlots/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamenation.PurpleSlots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE0EA5C62C985EB500144B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PurpleSlots/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PurpleSlots/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamenation.PurpleSlots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE0EA5B12C985EB100144B2E /* Build configuration list for PBXProject "PurpleSlots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0EA5C22C985EB500144B2E /* Debug */,
+				EE0EA5C32C985EB500144B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE0EA5C42C985EB500144B2E /* Build configuration list for PBXNativeTarget "PurpleSlots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0EA5C52C985EB500144B2E /* Debug */,
+				EE0EA5C62C985EB500144B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE0EA5AE2C985EB100144B2E /* Project object */;
+}
