@@ -20,6 +20,7 @@
 		EE0EA5DB2C988E5E00144B2E /* SlotInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0EA5DA2C988E5E00144B2E /* SlotInfoView.swift */; };
 		EE0EA5DD2C98985800144B2E /* EgyptGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0EA5DC2C98985800144B2E /* EgyptGameScene.swift */; };
 		EE0EA5DF2C98A5A200144B2E /* MonkeyChanceScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0EA5DE2C98A5A200144B2E /* MonkeyChanceScene.swift */; };
+		EE0EA5EB2C99DFA500144B2E /* PurpleSlotsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0EA5EA2C99DFA500144B2E /* PurpleSlotsDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		EE0EA5DA2C988E5E00144B2E /* SlotInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotInfoView.swift; sourceTree = "<group>"; };
 		EE0EA5DC2C98985800144B2E /* EgyptGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptGameScene.swift; sourceTree = "<group>"; };
 		EE0EA5DE2C98A5A200144B2E /* MonkeyChanceScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkeyChanceScene.swift; sourceTree = "<group>"; };
+		EE0EA5EA2C99DFA500144B2E /* PurpleSlotsDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleSlotsDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		EE0EA5B82C985EB100144B2E /* PurpleSlots */ = {
 			isa = PBXGroup;
 			children = (
+				EE0EA5E92C99DF9200144B2E /* Delegates */,
 				EE0EA5D12C98700900144B2E /* Games */,
 				EE0EA5CC2C9863DC00144B2E /* Info.plist */,
 				EE0EA5CA2C9863C100144B2E /* ChangaOne-Regular.ttf */,
@@ -126,6 +129,14 @@
 				EE0EA5DA2C988E5E00144B2E /* SlotInfoView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		EE0EA5E92C99DF9200144B2E /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				EE0EA5EA2C99DFA500144B2E /* PurpleSlotsDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +218,7 @@
 				EE0EA5C92C98634600144B2E /* DailyManager.swift in Sources */,
 				EE0EA5BA2C985EB100144B2E /* PurpleSlotsApp.swift in Sources */,
 				EE0EA5DF2C98A5A200144B2E /* MonkeyChanceScene.swift in Sources */,
+				EE0EA5EB2C99DFA500144B2E /* PurpleSlotsDelegate.swift in Sources */,
 				EE0EA5DB2C988E5E00144B2E /* SlotInfoView.swift in Sources */,
 				EE0EA5D52C98702400144B2E /* TigerFocusScene.swift in Sources */,
 			);

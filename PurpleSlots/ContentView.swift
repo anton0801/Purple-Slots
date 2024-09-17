@@ -215,6 +215,7 @@ struct ContentView: View {
                     .ignoresSafeArea()
             )
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
